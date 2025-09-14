@@ -1,0 +1,26 @@
+.tile-device {
+    padding: 2%;
+}
+
+.tile-device-inside {
+    transition: 0.5s;
+}
+
+.tile-device-inside:hover {
+    background-color: #264357;
+}
+
+.tile-device-inside.active {
+    background-color: #02b1af;
+}
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

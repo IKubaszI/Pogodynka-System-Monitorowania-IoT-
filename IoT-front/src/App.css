@@ -1,0 +1,25 @@
+.value {
+    margin-left: 15px;
+}
+
+.logo {
+    background: url("assets/ki.jpg");
+    background-size: cover;
+    width: 4vh;
+    height: 4vh;
+    margin: 3px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    flex-shrink: 0;
+}
